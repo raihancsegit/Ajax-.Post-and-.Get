@@ -1,0 +1,59 @@
+body{
+  font-family: arial;
+  background: #b2bec3;
+  padding:0;
+  margin: 0;
+}
+h1{
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+}
+#main{
+  width: 700px;
+  margin: 20px auto;
+  background: white;
+  font-size: 18px;
+}
+#header{
+  background: #27ae60;
+  color: #fff;
+  padding: 15px;
+}
+
+#table-data{
+  padding: 15px;
+  min-height: 400px;
+}
+
+table tr td:first-child{
+  text-align: right;
+  font-weight: bold;
+}
+
+input[type="text"]{
+  width: 200px;
+  height: 25px;
+  font-size: 17px;
+  padding: 3px;
+}
+
+input[type="button"]{
+  background: #27ae60;
+  color: #fff;
+  border: 0;
+  border-radius: 3px;
+  padding: 5px 10px;
+  outline: 0;
+  cursor: pointer;
+}
+#response{
+  background: #fcf8e3;
+  color: #8a6d3b;
+  border: 1px solid #faebcc;
+  width: 70%;
+  margin: 15px auto;
+  padding: 15px;
+  border-radius: 5px;
+  display: none;
+}
